@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/shell-app.dir/main.o CMakeFiles/shell-app.dir/AnalogSensor.o  -o shell-app -rdynamic 
