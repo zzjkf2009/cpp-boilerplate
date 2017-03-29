@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zejiang/cpp-boilerplate/app/AnalogSensor.cpp
+AnalogSensor.hpp
+-
+numeric
+-
+vector
+-
+
+/home/zejiang/cpp-boilerplate/app/main.cpp
+iostream
+-
+AnalogSensor.hpp
+-
+

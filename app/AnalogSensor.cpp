@@ -1,6 +1,6 @@
-#include <AnalogSensor.hpp>
 #include <numeric>
 #include <vector>
+#include "AnalogSensor.hpp"
 
 AnalogSensor::AnalogSensor(unsigned int samples)
     : mSamples(samples)
@@ -18,5 +18,3 @@ int AnalogSensor::Read()
     double result = std::accumulate( readings->begin(), readings->end(), 0.0 ) / readings->size();
     return result;
 }
-
-
